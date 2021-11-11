@@ -2,6 +2,7 @@
 body {
   background: #e5e5e5;
   font-family: Roboto;
+  margin: 0 auto;
 }
 .btn {
   cursor: pointer;
@@ -11,6 +12,22 @@ body {
 }
 .link {
   text-decoration: none;
+}
+
+/* СБРОС СТИЛЕЙ */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
 }
 
 /* INDEX-HTML */
@@ -45,8 +62,10 @@ body {
 .header {
 }
 .header-list {
+  display: flex;
 }
 .header-list2 {
+  display: flex;
 }
 .header-link {
   line-height: 1.14;
