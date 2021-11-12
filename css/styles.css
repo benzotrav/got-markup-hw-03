@@ -15,6 +15,7 @@ body {
 .container {
   margin-left: 15px;
   margin-right: 15px;
+  width: 1200px;
 }
 
 /* СБРОС СТИЛЕЙ */
@@ -61,10 +62,11 @@ ul {
 }
 /* Хедер */
 .header {
-  height: 80px;
 }
 .header-div {
   display: flex;
+  height: 80px;
+  width: 1600px;
 }
 .logotype {
   padding-left: 215px;
@@ -118,7 +120,16 @@ ul {
 .motto {
   background: #2f303a;
 }
+.motto-div {
+  display: inline-block;
+  height: 600px;
+  width: 1600px;
+}
 .motto-h1 {
+  padding-top: 200px;
+  padding-right: 452px;
+  margin-left: 452px;
+  padding-bottom: 40px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
@@ -130,6 +141,9 @@ ul {
   text-align: center;
 }
 .motto-btn {
+  margin-bottom: 210px;
+  margin-right: auto;
+  margin-left: auto;
   font-weight: 700;
   line-height: 1.88;
   display: flex;
@@ -147,9 +161,23 @@ ul {
 /* Гарантии */
 .description {
 }
+.description-div {
+  width: 1200px;
+  height: 289px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .description-list {
+  display: flex;
+  margin-top: 93px;
+  margin-left: 215px;
+  margin-right: 215px;
+}
+.description-li {
+  padding-right: 30px;
 }
 .description-h3 {
+  padding-top: 10px;
   font-weight: 700;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -159,6 +187,8 @@ ul {
   font-size: 14px;
 }
 .description-p {
+  width: 270px;
+  height: 75px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
@@ -170,7 +200,16 @@ ul {
 /* Чем мы занимаемся */
 .photo {
 }
+.photo-div {
+  height: 386px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .photo-h2 {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 94px;
+  margin-bottom: 50px;
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
@@ -180,6 +219,12 @@ ul {
   font-size: 36px;
 }
 .photo-list {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+}
+.photo-li {
+  padding-right: 30px;
 }
 .photo-img {
 }
@@ -187,7 +232,14 @@ ul {
 /* Наша команда */
 .team {
 }
+.team-div {
+  height: 648px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .team-h2 {
+  margin-top: 188px;
+  margin-bottom: 50px;
   font-weight: 700;
   line-height: 1.17;
   text-align: center;
@@ -197,12 +249,17 @@ ul {
   font-size: 36px;
 }
 .team-list {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 94px;
 }
 .team-li {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  padding-right: 30px;
 }
 .team-img {
 }
@@ -229,9 +286,20 @@ ul {
 .footer {
   background: #2f303a;
 }
+.footer-div {
+  margin-left: 215px;
+  margin-right: 1154px;
+}
+.footer-logo {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
 .footer-address {
 }
 .footer-list {
+  display: inline-block;
+  margin-bottom: 60px;
 }
 .footer-location {
   font-style: normal;
@@ -241,6 +309,8 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  margin-bottom: 9px;
+  display: inline-block;
 }
 .footer-link {
   font-style: normal;
@@ -250,12 +320,22 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  display: inline-block;
+  margin-bottom: 9px;
 }
 
 /* PORTFOLIO-HTML */
 
 /* Главный контент */
 .nav-list {
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  margin-right: 517px;
+  margin-left: 517px;
+}
+.nav-btn-li {
+  padding-right: 52px;
 }
 .nav-btn {
   line-height: 1.63;
@@ -269,6 +349,7 @@ ul {
   font-size: 16px;
   font-family: Roboto;
 }
+}
 .nav-btn:hover {
   background: #2196f3;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -280,17 +361,26 @@ ul {
 }
 .maincontant {
 }
+.maincontant-div {
+}
 .maincontant-list {
+  display: flex;
+  margin-bottom: 94px;
+  margin-top: 56px;
 }
 .maincontant-li {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  padding-right: 30px;
+  width: 370px;
+  height: 404px;
 }
 
 .maincontant-img {
 }
 .maincontant-h3 {
+  width: 322px;
   font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -298,6 +388,9 @@ ul {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
+  margin-right: 24px;
+  margin-left: 24px;
+  padding-top: 20px;
 }
 .maincontant-p {
   line-height: 1.88;
@@ -306,4 +399,7 @@ ul {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin-right: 24px;
+  margin-left: 24px;
+  padding-bottom: 20px;
 }
