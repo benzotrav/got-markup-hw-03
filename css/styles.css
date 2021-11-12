@@ -13,6 +13,12 @@ body {
 .link {
   text-decoration: none;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0auto;
+}
 
 /* СБРОС СТИЛЕЙ */
 p,
@@ -75,6 +81,11 @@ ul {
 .header-list2 {
   display: flex;
 }
+.header-li {
+}
+.header-li2 {
+}
+
 .header-link {
   line-height: 1.14;
   letter-spacing: 0.02em;
