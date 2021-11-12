@@ -68,22 +68,31 @@ ul {
 .header {
   height: 80px;
 }
+.header-container {
+  display: flex;
+}
 .logotype {
-  display: inline-block;
-  width: 145px;
-  height: 31px;
-  left: 215px;
+  padding-left: 215px;
+  padding-bottom: 25px;
+  padding-top: 24px;
 }
 .header-list {
   display: flex;
-  margin-left: 480px;
+  padding-bottom: 32px;
+  padding-top: 32px;
+  padding-left: 93px;
 }
 .header-list2 {
   display: flex;
+  margin-bottom: 32px;
+  margin-top: 32px;
+  padding-left: 331px;
 }
 .header-li {
+  padding-right: 50px;
 }
 .header-li2 {
+  padding-right: 50px;
 }
 
 .header-link {
