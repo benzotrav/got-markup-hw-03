@@ -60,9 +60,17 @@ ul {
 }
 /* Хедер */
 .header {
+  height: 80px;
+}
+.logotype {
+  display: inline-block;
+  width: 145px;
+  height: 31px;
+  left: 215px;
 }
 .header-list {
   display: flex;
+  margin-left: 480px;
 }
 .header-list2 {
   display: flex;
