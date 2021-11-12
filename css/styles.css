@@ -2,7 +2,6 @@
 body {
   background: #e5e5e5;
   font-family: Roboto;
-  margin: 0 auto;
 }
 .btn {
   cursor: pointer;
@@ -12,28 +11,6 @@ body {
 }
 .link {
   text-decoration: none;
-}
-.container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: 0auto;
-}
-
-/* СБРОС СТИЛЕЙ */
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0px;
-}
-
-ul {
-  margin: 0px;
-  padding: 0px;
 }
 
 /* INDEX-HTML */
@@ -66,35 +43,11 @@ ul {
 }
 /* Хедер */
 .header {
-  height: 80px;
-}
-.header-container {
-  display: flex;
-}
-.logotype {
-  padding-left: 215px;
-  padding-bottom: 25px;
-  padding-top: 24px;
 }
 .header-list {
-  display: flex;
-  padding-bottom: 32px;
-  padding-top: 32px;
-  padding-left: 93px;
 }
 .header-list2 {
-  display: flex;
-  margin-bottom: 32px;
-  margin-top: 32px;
-  margin-left: 331px;
 }
-.header-li {
-  padding-right: 50px;
-}
-.header-li2 {
-  padding-right: 50px;
-}
-
 .header-link {
   line-height: 1.14;
   letter-spacing: 0.02em;
