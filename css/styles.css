@@ -13,7 +13,7 @@ body {
   text-decoration: none;
 }
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
@@ -95,7 +95,10 @@ img {
 .header-li {
   margin-right: 50px;
 }
-.header-li:last-child {
+.header-li2 {
+  margin-right: 50px;
+}
+.header-li2:last-child {
   margin-right: 50px;
 }
 .header-link {
@@ -169,7 +172,13 @@ img {
 /* Гарантии */
 .description {
 }
+.desctiption-div {
+  display: flex;
+}
 .description-list {
+  display: flex;
+  margin-top: 94px;
+  margin-bottom: 186px;
 }
 .description-h3 {
   font-weight: 700;
@@ -180,6 +189,9 @@ img {
   font-style: normal;
   font-size: 14px;
 }
+.desctiption-li {
+  padding-right: 30px;
+}
 .description-p {
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -187,6 +199,7 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 /* Чем мы занимаемся */
@@ -200,14 +213,21 @@ img {
   color: #212121;
   font-style: normal;
   font-size: 36px;
+  margin-bottom: 50px;
 }
 .photo-list {
+  display: flex;
+  margin-bottom: 188px;
+}
+.photo-li {
+  padding-right: 30px;
 }
 .photo-img {
 }
 
 /* Наша команда */
 .team {
+  background-color: #f5f4fa;
 }
 .team-h2 {
   font-weight: 700;
@@ -217,16 +237,24 @@ img {
   color: #212121;
   font-style: normal;
   font-size: 36px;
+  margin-bottom: 50px;
 }
 .team-list {
+  display: flex;
+  margin-bottom: 94px;
 }
 .team-li {
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  margin-right: 50px;
+}
+.team-li:last-child {
+  margin-right: 0px;
 }
 .team-img {
+  margin-bottom: 30px;
 }
 .team-h3 {
   line-height: 1.19;
@@ -236,6 +264,7 @@ img {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
+  margin-bottom: 10px;
 }
 .team-p {
   line-height: 1.19;
@@ -245,13 +274,21 @@ img {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
+  margin-bottom: 30px;
 }
 
 /* Футер */
 .footer {
   background: #2f303a;
 }
+
 .footer-address {
+  margin-top: 20px;
+  padding-bottom: 60px;
+}
+.footer-logo {
+  display: inline-block;
+  padding-top: 50px;
 }
 .footer-list {
 }
@@ -278,6 +315,16 @@ img {
 
 /* Главный контент */
 .nav-list {
+  display: flex;
+  margin-left: 302px;
+  margin-right: 302px;
+  margin-bottom: 50px;
+}
+.nav-li {
+  padding-right: 8px;
+}
+.nav-li:last-child {
+  padding-right: 0px;
 }
 .nav-btn {
   line-height: 1.63;
@@ -303,11 +350,20 @@ img {
 .maincontant {
 }
 .maincontant-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 64px;
 }
 .maincontant-li {
   background: #ffffff;
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  width: 370px;
+}
+.maincontant-li:nth-child(3n) {
+  margin-right: 0px;
 }
 
 .maincontant-img {
