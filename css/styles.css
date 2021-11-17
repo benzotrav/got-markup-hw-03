@@ -67,25 +67,36 @@ img {
 }
 /* Хедер */
 .header {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .header-nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header-div {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .header-list {
   display: flex;
   margin-left: 93px;
+}
+.header.connect {
+  display: flex;
+  margin-left: auto;
 }
 .header-list2 {
   display: flex;
   margin-left: auto;
 }
 .header-li {
-  padding-right: 50px;
+  margin-right: 50px;
+}
+.header-li:last-child {
+  margin-right: 50px;
 }
 .header-link {
   line-height: 1.14;
@@ -115,6 +126,9 @@ img {
 /* Шапка */
 .motto {
   background: #2f303a;
+  height: 600px;
+}
+.motto-div {
 }
 .motto-h1 {
   line-height: 1.36;
@@ -126,6 +140,11 @@ img {
   font-weight: 900;
   font-size: 44px;
   text-align: center;
+  width: 696px;
+  display: inline-block;
+  padding-top: 200px;
+  margin-right: 252px;
+  margin-left: 252px;
 }
 .motto-btn {
   font-weight: 700;
@@ -140,6 +159,11 @@ img {
   border-radius: 4px;
   font-style: normal;
   font-size: 16px;
+  margin-right: 516px;
+  margin-left: 516px;
+  margin-bottom: 210px;
+  width: 170px;
+  height: 50px;
 }
 
 /* Гарантии */
