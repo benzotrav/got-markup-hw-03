@@ -12,6 +12,30 @@ body {
 .link {
   text-decoration: none;
 }
+.container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto;
+}
+
+/* СБРОС СТИЛЕЙ */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  display: block;
+}
 
 /* INDEX-HTML */
 /* Логотип */
@@ -44,9 +68,24 @@ body {
 /* Хедер */
 .header {
 }
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+.header-div {
+  display: flex;
+  align-items: center;
+}
 .header-list {
+  display: flex;
+  margin-left: 93px;
 }
 .header-list2 {
+  display: flex;
+  margin-left: auto;
+}
+.header-li {
+  padding-right: 50px;
 }
 .header-link {
   line-height: 1.14;
